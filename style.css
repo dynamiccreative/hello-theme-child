@@ -19,6 +19,8 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
  * Ce site est protégé par reCAPTCHA et Google <a href="https://policies.google.com/privacy" target="_blank">Politique de confidentialité</a> et <a href="https://policies.google.com/terms" target="_blank">Conditions d'utilisation</a>.
  */
 .grecaptcha-badge { visibility: hidden; }
+
+/*zero*/
 *:focus-visible {outline: none;}
 	
 /*Form*/
