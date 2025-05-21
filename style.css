@@ -5,7 +5,7 @@ Description: Hello Elementor Child is a child theme of Hello Elementor, created 
 Author: Elementor Team
 Author URI: https://elementor.com/
 Template: hello-elementor
-Version: 2.0.0
+Version: 2.0.1
 Text Domain: hello-elementor-child
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -13,3 +13,13 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 */
 
 /* Add your custom styles here */
+
+/*google recaptcha*/
+.grecaptcha-badge { visibility: hidden; }
+*:focus-visible {outline: none;}
+	
+/*Form*/
+.elementor-field-type-acceptance .elementor-field-option {display:flex; align-items: flex-start;}
+.elementor-field-type-acceptance input {position: relative; top:3px; margin-right: 12px;}
+.elementor-field-type-acceptance label {font-size:12px!important; text-transform:none!important; font-weight: 400!important;}
+input[type="file"]::file-selector-button { border: 0px solid #e98d40; border-radius:4px; background-color: #e98d40 !important; padding: 10px 20px; font-size: 14px; font-weight: 600; font-family: var( --e-global-typography-b2ce6af-font-family ), Sans-serif; margin-right: 15px; color:#fff; cursor: pointer;	}
