@@ -34,3 +34,10 @@ function hello_elementor_child_scripts_styles() {
 
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_child_scripts_styles', 20 );
+
+/*
+ * security
+ */
+remove_action('wp_head', 'wp_generator');
+remove_action('wp_head', 'wlwmanifest_link');
+define('DISALLOW_FILE_EDIT',true); // cacher editeur de fichier
